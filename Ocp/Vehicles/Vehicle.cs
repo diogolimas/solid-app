@@ -16,8 +16,6 @@ namespace Ocp
             this.engine = engine;
         }
 
-
-
         public void StartVehicle()
         {
             Console.WriteLine("Ligando os motores");
