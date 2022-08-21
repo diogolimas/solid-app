@@ -21,5 +21,6 @@ códigos do curso feito na Udemy acerda de princípios SOLID para C# e suas apli
 ## Liskov Substitution Principle (LSP):
 
  1. Objetos da subclasse se comportem da mesma maneira das superclasse;
- 2. 
+ 2. Se substituirmos o contrato utilizado na classe mãe (interface) e usasse diretamente nas classes filhas, o comportamente deve ser o mesmo.
+ 3. <img src="https://se-education.org/se-book/principles/liskovSubstitutionPrinciple/images/payroll.png" width="400">
 

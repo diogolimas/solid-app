@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Payments\CreditCard.cs" />
+    <Compile Include="Payments\DebitCard.cs" />
+    <Compile Include="Payments\IPaymentInstrument.cs" />
+    <Compile Include="Payments\NubankRewards .cs" />
+    <Compile Include="Payments\NubankCard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
