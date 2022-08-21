@@ -1,9 +1,6 @@
-# Solid - APP!
+# SOLID
 
 códigos do curso feito na Udemy acerda de princípios SOLID para C# e suas aplicações em situações reais.
-
-
-# SOLID
 
 ## Single Principle Responsibility (SPR):
 
