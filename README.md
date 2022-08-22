@@ -22,7 +22,7 @@ width="400" >
 3.  princípio relativo a mudanças
 4.  primeira maneira de aplicar ocp: estendendo ou criando interfaces
 5.  a ideia central é: criar uma versão para coisas novas. Digamos: precisamos implementar mudanças significativas: cria-se uma nova versão, bem como novas classes.
-6.  Para estudar **padrões de projeto que aplicam o ocp: FACTORY E STRATEGY**
+6.  Para estudar **padrões de projeto que aplicam o ocp: [FACTORY E STRATEGY](https://betterprogramming.pub/design-patterns-factory-vs-strategy-f45db68f0088)**
 
 ## Liskov Substitution Principle (LSP):
 
@@ -35,4 +35,6 @@ width="400">
 
 ## Interface Segregation Principle (ISP):
 
- 1. 
+ 1. Identificar interfaces "infladas", isto é, cheias de métodos que não são necessários em todos os contratos;
+ 2. Esse princípio pode se aplicar, também, à **classes abstratas**;
+ 3. 
