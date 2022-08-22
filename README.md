@@ -1,6 +1,6 @@
 # SOLID
 
-códigos do curso feito na Udemy acerda de princípios SOLID para C# e suas aplicações em situações reais.
+códigos do [curso feito na Udemy](https://www.udemy.com/course/curso-design-patterns-csharp/) acerda de princípios SOLID para C# e suas aplicações em situações reais.
 
 ## Single Principle Responsibility (SPR):
 
@@ -17,7 +17,7 @@ width="400" >
 
 ## Open-closed Principle (OCP):
 
- 1.  Esse princípio fala sobre como agir em situações em que **se precisa alterar regras de negócio na aplicação sem quebrar o que já funciona**.
+1.  Esse princípio fala sobre como agir em situações em que **se precisa alterar regras de negócio na aplicação sem quebrar o que já funciona**.
 2.  **aberto**: podemos **estender** a classe, mas **fechado** para **alteração** do que já foi implementado
 3.  princípio relativo a mudanças
 4.  primeira maneira de aplicar ocp: estendendo ou criando interfaces
@@ -33,3 +33,6 @@ width="400" >
 src="https://se-education.org/se-book/principles/liskovSubstitutionPrinciple/images/payroll.png" 
 width="400">
 
+## Interface Segregation Principle (ISP):
+
+ 1. 
