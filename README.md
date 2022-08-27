@@ -37,4 +37,8 @@ width="400">
 
  1. Identificar interfaces "infladas", isto é, cheias de métodos que não são necessários em todos os contratos;
  2. Esse princípio pode se aplicar, também, à **classes abstratas**;
- 3. 
+ 3. Interfaces com muitos métodos;
+ 4. Interfaces com baixa coesão ou com métodos vazios;
+ 5. Interfaces menores são mais fáceis de trabalhar e desenvolver;
+ 6. Código limpo tem a ver com a objetividade das classes;
+ 7. Reduz acoplamento no código;
