@@ -13,6 +13,7 @@ width="400" >
 <img 
 src="https://dotnettutorials.net/wp-content/uploads/2018/06/Single-Responsibility-Principle-in-C.png" 
 width="400" >
+4. Uma classe não pode ter mais de um motivo para existir!
 
 
 ## Open-closed Principle (OCP):
@@ -23,6 +24,7 @@ width="400" >
 4.  primeira maneira de aplicar ocp: estendendo ou criando interfaces
 5.  a ideia central é: criar uma versão para coisas novas. Digamos: precisamos implementar mudanças significativas: cria-se uma nova versão, bem como novas classes.
 6.  Para estudar **padrões de projeto que aplicam o ocp: [FACTORY E STRATEGY](https://betterprogramming.pub/design-patterns-factory-vs-strategy-f45db68f0088)**
+7.  Se necessário mais recursos na classe, extenda.
 
 ## Liskov Substitution Principle (LSP):
 
@@ -42,12 +44,51 @@ width="400">
  5. Interfaces menores são mais fáceis de trabalhar e desenvolver;
  6. Código limpo tem a ver com a objetividade das classes;
  7. Reduz acoplamento no código;
+ 8. Se possível, melhor depender de duas interfaces, mas não é interessante inflar as interfaces.
 
 
 ## Dependency Inversion Principle:
-1. Módulos de alto nível não devem depender um do outro, mas sim de abstrações;
-2. Um caso em que é necessário realizar um consulta em um banco de dados, essa consulta precisa depender apenas de uma camada que conecte o tipo de banco. 
-3. Pagamento -> Consulta no banco -> Camada que retorna um pagamento -> camada que conecta com o banco;
+1. Módulos de alto e baixo nível não devem depender um do outro, mas sim de abstrações;
+2. Um caso em que é necessário realizar um consulta em um banco de dados, essa consulta precisa depender apenas de uma camada que conecte o tipo de banco;
+3. Pagamento -> Consulta no banco -> Camada que retorna um pagamento -> camada que conecta com o banco.
 4. <img 
 src="https://upload.wikimedia.org/wikipedia/commons/9/96/Dependency_inversion.png" 
 width="400">
+
+
+
+# Origem do termo dos Design Patterns
+
+Os Design Patterns, ou padrões de projetos, têm sua primeira descrição no livro *The Timeless Way of Building*, de Christopher Alexander, em 79. Ele cunhou o termo tentando descrever a ideia de construir soluções comuns para problemas comuns. Esses problemas se baseariam em:
+
+- Encapsulamento;
+- Generalidade;
+- Equilíbrio;
+- Abstração;
+- Abertura;
+- Combinatório.
+
+# Gang of Four - GOF
+
+São 23 padrões de projeto encontrados no livro lançado em 1995 (*Design Patterns: Elements of Reusable Object-Oriented Software*), por 4 engenheiros e desenvolvedores de software. Tentavam passar a ideia de, sobretudo, que:
+
+*"Conhecer esses padrões é fundamental  para entender os modernos frameworks e desenvolver softwares de qualidade."*.
+
+Padrão GOF:
+- Nome do Padrão;
+- Problema que Soluciona;
+- Solução.
+
+# Tipos:
+
+## Criacional
+
+Diz respeito da criação dos objetos, tentando mantê-los de maneira reutilizável e flexível.
+
+## Estrutural
+
+Orientam como lidar com objetos e classes em estruturas de grande porte, continuando de maneira flexível e eficaz.
+
+## Comportamental
+
+Comunicação eficiente. Determinam responsabilidades comuns aos objetos. 
