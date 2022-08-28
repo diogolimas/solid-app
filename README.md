@@ -42,3 +42,12 @@ width="400">
  5. Interfaces menores são mais fáceis de trabalhar e desenvolver;
  6. Código limpo tem a ver com a objetividade das classes;
  7. Reduz acoplamento no código;
+
+
+## Dependency Inversion Principle:
+1. Módulos de alto nível não devem depender um do outro, mas sim de abstrações;
+2. Um caso em que é necessário realizar um consulta em um banco de dados, essa consulta precisa depender apenas de uma camada que conecte o tipo de banco. 
+3. Pagamento -> Consulta no banco -> Camada que retorna um pagamento -> camada que conecta com o banco;
+4. <img 
+src="https://upload.wikimedia.org/wikipedia/commons/9/96/Dependency_inversion.png" 
+width="400">
