@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FactoryMethod.Factories;
+using FactoryMethod.Vehicle;
+using System;
 
 namespace FactoryMethod
 {
@@ -19,7 +17,11 @@ namespace FactoryMethod
             } else if(args.Length > 0 && args[0] == "--log")
             {
                 transport = new MotorcycleTransport();
-            } else
+            }else if(args.Length > 0 && args[0] == "--eats")
+            {
+                transport = new EatsTransport();
+            }
+            else
             {
                 Console.WriteLine("Selecione o tipo da entrega.");
             }
@@ -30,7 +32,6 @@ namespace FactoryMethod
             }
 
             Console.ReadLine();
-
 
         }
     }
