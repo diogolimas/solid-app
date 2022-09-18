@@ -92,3 +92,11 @@ Orientam como lidar com objetos e classes em estruturas de grande porte, continu
 ## Comportamental
 
 Comunicação eficiente. Determinam responsabilidades comuns aos objetos. 
+
+# Criação
+
+
+## Factory method
+1. gerador de objetos de diver
+2. a aplicação acessa uma factory, fábrica de produtos;
+3. 
