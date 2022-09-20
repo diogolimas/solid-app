@@ -100,3 +100,13 @@ Comunicação eficiente. Determinam responsabilidades comuns aos objetos.
 1. gerador de objetos de diver
 2. a aplicação acessa uma factory, fábrica de produtos;
 3. 
+
+
+## Abstract method
+1. gerador de objetos de diver
+2. a aplicação acessa uma factory, fábrica de produtos;
+
+
+## Builder method
+
+1. 
